@@ -14,8 +14,8 @@
 
 
 	 The folders and it's use in this project is 
-		1. FillrRakuten > Test-Auto > src > resources > features > AmazonSample.feature  contains scenario based steps in BDD format
-		2. FillrRakuten > Test-Auto > src > test > java > com.qualityassurance > stepdefs > AmazonSampleSteps.java contains the implementation of the scenarios mentioned in #1. 
+		1. src > resources > features > AmazonSample.feature  contains scenario based steps in BDD format
+		2. src > test > java > com.qualityassurance > stepdefs > AmazonSampleSteps.java contains the implementation of the scenarios mentioned in #1. 
 		This file also have 
 			a. @BeforeTest - Contains all the capabilities of mobile and to eastablish connection between the appium server.
 			b. @Test - Contains all the actual steps which are defined in AmazonSample.feature file
